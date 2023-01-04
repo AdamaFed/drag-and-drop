@@ -22,17 +22,18 @@
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
-                    <div class="add-btn">
+                    <div class="add-btn" onclick="showInputBox(0)">
                         <span class="plus-sign">+</span>
                         <span>Add Item</span>
                     </div>
-                    <div class="add-btn solid">
+                    <div class="add-btn solid" onclick="hideInputBox(0)">
                         <span>Save Item</span>
                     </div>
-                    <div class="add-container">
-                        <div class="add-item"></div>
-                    </div>
                 </div>
+                <div class="add-container">
+                    <div class="add-item"></div>
+                </div>
+                
             </li>
             <!-- Progress -->
             <li class="drag-column progress-column">
@@ -45,17 +46,18 @@
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
-                    <div class="add-btn">
+                    <div class="add-btn" onclick="showInputBox(1)">
                         <span class="plus-sign">+</span>
                         <span>Add Item</span>
                     </div>
-                    <div class="add-btn solid">
+                    <div class="add-btn solid" onclick="hideInputBox(1)">
                         <span>Save Item</span>
                     </div>
-                    <div class="add-container">
-                        <div class="add-item"></div>
-                    </div>
                 </div>
+                <div class="add-container">
+                    <div class="add-item"></div>
+                </div>
+                
             </li><!-- Complete -->
             <li class="drag-column complete-column">
                 <span class="header">
@@ -67,18 +69,20 @@
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
-                    <div class="add-btn">
+                    <div class="add-btn" onclick="showInputBox(2)">
                         <span class="plus-sign">+</span>
                         <span>Add Item</span>
                     </div>
-                    <div class="add-btn solid">
+                    <div class="add-btn solid" onclick="hideInputBox(2)">
                         <span>Save Item</span>
                     </div>
-                    <div class="add-container">
-                        <div class="add-item"></div>
-                    </div>
                 </div>
-            </li><!-- On Hold -->
+                <div class="add-container">
+                    <div class="add-item"></div>
+                </div>
+                
+            </li>
+            <!-- On Hold -->
             <li class="drag-column on-hold-column">
                 <span class="header">
                     <h1>Paused</h1>
@@ -89,18 +93,18 @@
                 </div>
                 <!-- Add Button Group -->
                 <div class="add-btn-group">
-                    <div class="add-btn">
+                    <div class="add-btn" onclick="showInputBox(3)">
                         <span class="plus-sign">+</span>
                         <span>Add Item</span>
                     </div>
-                    <div class="add-btn solid">
+                    <div class="add-btn solid" onclick="hideInputBox(3)">
                         <span>Save Item</span>
                     </div>
-                    <div class="add-container">
-                        <div class="add-item"></div>
-                    </div>
                 </div>
-            </li>
+                <div class="add-container">
+                    <div class="add-item"></div>
+                </div>
+                </li>
         </ul>
     </div>
     <!-- Script -->
